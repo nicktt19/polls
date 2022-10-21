@@ -166,7 +166,7 @@ class _PollsState extends State<Polls> {
                 padding: EdgeInsets.all(0),
                 height: 38,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
+                  borderRadius: BorderRadius.circular(widget.barRadius),
                   color: widget.backgroundColor,
                 ),
                 child: OutlinedButton(
